@@ -1,5 +1,5 @@
 const app = require('../app');
-const usersRouter = require('./routes/users');
+const usersRouter = require('../routes/users');
 
 app.use('/users', usersRouter);
 
