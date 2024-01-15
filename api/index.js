@@ -1,6 +1,6 @@
 const app = require('../app');
 
 var indexRouter = require('../routes/index');
-app.use('/', indexRouter);
+app.use('/api/', indexRouter);
 
 module.exports = app;
